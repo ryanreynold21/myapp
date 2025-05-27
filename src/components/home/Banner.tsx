@@ -16,7 +16,7 @@ const slides = [
 
 const Banner: React.FC = () => {
   const [activeIndex, setActiveIndex] = useState(0);
-  const swiperRef = useRef<SwiperCore>();
+  const swiperRef = useRef<any>(null);
 
   const handleDotClick = (index: number) => {
     swiperRef.current?.slideToLoop(index);
