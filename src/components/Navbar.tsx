@@ -11,7 +11,7 @@ interface NavbarProps {}
 
 const Navbar: React.FC<NavbarProps> = ({}) => {
   return (
-    <div className=" bg-white hidden lg:block">
+    <div className=" bg-white hidden lg:block border-b-[1px] border-black">
       <div className=" flex justify-between items-center">
         {/* logo */}
         <div className=" flex">
