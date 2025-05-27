@@ -1,6 +1,8 @@
 import Banner from "@/components/home/Banner";
+import Charactor from "@/components/home/Charactor";
 import Featured from "@/components/home/Featured";
 import News from "@/components/home/News";
+import Seller from "@/components/home/Seller";
 import Store from "@/components/home/Store";
 
 // app/page.tsx
@@ -26,6 +28,12 @@ export default function Home() {
       />
       <div className=" w-[90%] my-[30px] flex justify-center items-center bg-slate-300 h-[1px]"></div>
       <News />
+      <div className=" w-[90%] my-[30px] flex justify-center items-center bg-slate-300 h-[1px]"></div>
+      <Charactor />
+      <div className=" w-[90%] my-[30px] flex justify-center items-center bg-slate-300 h-[1px]"></div>
+      <Seller title="Digital new releases" />
+      <Seller title="Digital best sellers" />
+      <div className=" w-full bg-red-600 h-[100px] flex justify-center items-center text-white">logo</div>
     </main>
   );
 }
