@@ -11,7 +11,6 @@ import { AiFillShopping } from "react-icons/ai";
 import { MdContactSupport } from "react-icons/md";
 import { IoCloseSharp } from "react-icons/io5";
 
-
 const FooterNav: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -73,7 +72,7 @@ const FooterNav: React.FC = () => {
 
       {/* Footer Navigation */}
       <div className="lg:hidden fixed bottom-4 w-full flex justify-center items-center z-40">
-        <div className="flex justify-between items-center w-[90%] bg-white rounded-full shadow-md px-6 py-3">
+        <div className="flex justify-between items-center footerNav w-[90%] bg-white rounded-full shadow-md px-6 py-3">
           {isMenuOpen ? (
             <IoCloseSharp
               size={30}
@@ -88,8 +87,8 @@ const FooterNav: React.FC = () => {
             />
           )}
           <FaHeart size={26} className="text-gray-700" />
-          <div className="mb-[20px]">
-            <IoIosSearch size={32} className="text-gray-700" />
+          <div className="footerNav_search flex justify-center items-center mb-[20px]">
+            <IoIosSearch size={40} />
           </div>
           <FaShoppingCart size={26} className="text-gray-700" />
           <IoPerson size={26} className="text-gray-700" />
