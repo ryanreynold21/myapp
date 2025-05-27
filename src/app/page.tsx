@@ -1,5 +1,6 @@
 import Banner from "@/components/home/Banner";
 import Featured from "@/components/home/Featured";
+import News from "@/components/home/News";
 import Store from "@/components/home/Store";
 
 // app/page.tsx
@@ -24,6 +25,7 @@ export default function Home() {
         title="Gaming systems"
       />
       <div className=" w-[90%] my-[30px] flex justify-center items-center bg-slate-300 h-[1px]"></div>
+      <News />
     </main>
   );
 }
