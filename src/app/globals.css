@@ -1,1 +1,26 @@
 @import "tailwindcss";
+
+.footerNav {
+  margin: auto;
+  height: 58px;
+  width: 96%;
+  max-width: 440px;
+  height: 58px;
+
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  background-color: rgb(255, 255, 255);
+  border-radius: 100px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0.25rem 0.5rem 0px;
+}
+
+.footerNav_search {
+  width: 60px;
+  height: 60px;
+  background: rgb(230, 0, 18);
+  border: none;
+  border-radius: 50%;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
