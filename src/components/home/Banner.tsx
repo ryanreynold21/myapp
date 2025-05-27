@@ -23,7 +23,7 @@ const Banner: React.FC = () => {
 	};
 
 	return (
-		<div className="relative w-screen">
+		<div className="relative w-screen flex flex-col justify-center items-center">
 			<Swiper
 				spaceBetween={5}
 				slidesPerView={1}
@@ -55,6 +55,9 @@ const Banner: React.FC = () => {
 					></li>
 				))}
 			</ul>
+			<div className=" w-[90%] my-[30px] flex justify-center items-center bg-slate-300 h-[1px]">
+				
+			</div>
 		</div>
 	);
 };
